@@ -1,17 +1,17 @@
 # Hexgrid
 
-This is a GO (Golang) library used to handle regular hexagons.
+This is a fork of a GO (Golang) library used to handle regular hexagons.
 It's based on the algorithms described at http://www.redblobgames.com/grids/hexagons/implementation.html
 
 ## Installation
 
-    go get github.com/pmcxs/hexgrid
+    go get github.com/misterunix/hexgrid
 
 ## Usage
 #### Importing
 
 ```go
-import "github.com/pmcxs/hexgrid"
+import "github.com/misterunix/hexgrid"
 ```
 
 ### Examples
@@ -75,9 +75,10 @@ hex := PixelToHex(layout, point).Round()
 
 ## Credits
 
+* Bill Jones
 * Pedro Sousa
 * Red Blob Games (http://www.redblobgames.com/grids/hexagons/implementation.html)
 
 ## License
 
-MIT
+BSD
